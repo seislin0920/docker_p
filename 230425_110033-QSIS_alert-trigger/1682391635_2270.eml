@@ -1,0 +1,108 @@
+Received: from 140.109.4.74
+	by webmail.earth.sinica.edu.tw with Mail2000 ESMTP Server V7.00(1365:0:AUTH_RELAY)
+	(envelope-from <qsissystem@gmail.com>); Fri, 15 Jul 2022 09:26:54 +0800 (CST)
+Return-Path: <qsissystem@gmail.com>
+X-ASG-Debug-ID: 1657848412-070e78284bc47e50001-saNRYv
+Received: from mail-pj1-f47.google.com (mail-pj1-f47.google.com [209.85.216.47]) by fmail4.its.sinica.edu.tw with ESMTP id avHGzLpxTzbYosdB (version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NO); Fri, 15 Jul 2022 09:26:53 +0800 (CST)
+X-Barracuda-Envelope-From: qsissystem@gmail.com
+X-Barracuda-Effective-Source-IP: mail-pj1-f47.google.com[209.85.216.47]
+X-Barracuda-Apparent-Source-IP: 209.85.216.47
+Received: by mail-pj1-f47.google.com with SMTP id y14-20020a17090a644e00b001ef775f7118so10224114pjm.2;
+        Thu, 14 Jul 2022 18:26:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=message-id:date:subject:from:mime-version;
+        bh=m+hOQ+YQ3PUgH284BHLq9X5ygMSKrgcaJv3Z6TsO1IE=;
+        b=oledcc8y/UWARKz1WzSrRKtri4fZWljcu2zI5gcz7g0XKavNVG6Z86oYmwBfSbQSUX
+         uTaHJmTVRYn9hC4gVmPjdfO+9rmjhn7dqxah6G1EswjtQu/LxlKynjLxYfwqnBp9Pfo4
+         r706aXY3g3TRx7kj40c8W3gCOLHTaCEh16VKQguFzK5Yt3H7aqCOawhzYOFSoylQ0AiZ
+         X/NhQrY5wUMGa9KlEx/TCXhn+RxmlW0fWu6HLB/XExCY2LMBWN9RMZt1/ZLj38uIZ92f
+         zC6f4TnHVTK9Zl38q1qefzbM30x3Bj7hJZDAFlAMYaPMZFaVW116TE8gmtScExQzUkj+
+         DD8w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:message-id:date:subject:from:mime-version;
+        bh=m+hOQ+YQ3PUgH284BHLq9X5ygMSKrgcaJv3Z6TsO1IE=;
+        b=wA0aBrzz+Fu/y5w9PGPHaoHQMRS2MvVZOkFxcft73FYMxNQ9efOZKSiN0FePWEKGRH
+         Rt7dM3JRdaEmNzB4dCNVBoo3JNaG+p9FSyQu2ARq6pp123bR45ti6E8CqVKl3pNfkB0Q
+         7m7UFVvumvgM9FJjRMgSTwoKOxrGMb+Q6DZokh4OfSiMA+PY8Q6mGfy8BpcReyiav8ux
+         BG3b3Iw8OTSSerDRSRjjm/wjUANiZ5ml/jEe9zQ3jueO5HF3cmwB+zIc3CLhqCZPwnFu
+         iNkzVd2YALyoN9sr2NJY/9ciRPKBNh3LP8rrO0Asy9nrNMAFnDJvIQUVLG1vYF0sT1R5
+         YdWQ==
+X-Gm-Message-State: AJIora+BtLaroC5Stwfht/9ZyWDqVygqteBgH9jf5bQOEws3U0typFeD
+	m2d9Yc7HOgF5Npn+GS6WVFC/XkkUBIE=
+X-Google-Smtp-Source: AGRyM1uTxniLRlrB/zKxqg1cFB5XcnwrJ+ksIKRK5WaLqgnzeP7JbrQN+4XeDfc93Sfkf7pJdRSQ7g==
+X-Received: by 2002:a17:90a:474c:b0:1ec:f898:d85b with SMTP id y12-20020a17090a474c00b001ecf898d85bmr12990105pjg.11.1657848411364;
+        Thu, 14 Jul 2022 18:26:51 -0700 (PDT)
+Received: from [127.0.1.1] (140-109-172-254.rcec.sinica.edu.tw. [140.109.172.254])
+        by smtp.gmail.com with ESMTPSA id x9-20020a170902a38900b0016c0c82e85csm2120304pla.75.2022.07.14.18.26.50
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 14 Jul 2022 18:26:50 -0700 (PDT)
+Message-ID: <62d0c25a.1c69fb81.a37bb.3bd9@mx.google.com>
+Date: Thu, 14 Jul 2022 18:26:50 -0700 (PDT)
+Subject: Trigger Detected: QSIS-Client 5AE28
+From: qsissystem@gmail.com
+X-ASG-Orig-Subj: Trigger Detected: QSIS-Client 5AE28
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="===============1062265724=="
+X-Barracuda-Connect: mail-pj1-f47.google.com[209.85.216.47]
+X-Barracuda-Start-Time: 1657848413
+X-Barracuda-Encrypted: TLS_AES_256_GCM_SHA384
+X-Barracuda-URL: https://fmail4.its.sinica.edu.tw:443/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at sinica.edu.tw
+X-Barracuda-Scan-Msg-Size: 1319
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 1.22
+X-Barracuda-Spam-Status: No, SCORE=1.22 using global scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=4.5 KILL_LEVEL=6.0 tests=EMPTY_TO_HEADER, HTML_MESSAGE, MISSING_HEADERS, MISSING_HEADERS_2, NO_REAL_NAME, TO_CC_NONE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.99383
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.01 EMPTY_TO_HEADER        Custom rule EMPTY_TO_HEADER
+	0.00 NO_REAL_NAME           From: does not include a real name
+	0.00 MISSING_HEADERS        Missing To: header
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	1.21 MISSING_HEADERS_2      Missing To: header
+	0.00 TO_CC_NONE             No To: or Cc: header
+
+--===============1062265724==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Event detected at the station: 5AE28
+Location: RCEC-4F-C2
+Event time: 2022-07-15 01:26:20.197405 UTC
+
+PGA 3D: 2.21
+PGA horizontal: 0.99
+
+PGA_X: 0.72 gal
+PGA_Y: 0.67 gal
+PGA_Z: 1.98 gal
+
+--===============1062265724==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+                        <!DOCTYPE html>
+                        <html>
+                            <body>
+                                <h1>Trigger Detected for QSIS-Client <span style="color:black;">5AE28</span></h1>
+                                <p>Device: <span style="color:SlateGray;">5AE28</span><br>
+                                Location: <span style="color:SlateGray;">RCEC-4F-C2</span></p>
+
+                                <p>Event time: <span style="color:SlateGray;">2022-07-15 01:26:20.197405</span></p>
+                                <p>PGA 3D: <span style="color:SlateGray;">2.21</span><br>
+                                PGA horizontal: <span style="color:SlateGray;">0.99</span></p>
+                                
+                                <p>PGA_X: <span style="color:SlateGray;">0.72 gal</span><br>
+                                PGA_Y: <span style="color:SlateGray;">0.67 gal</span><br>
+                                PGA_Z: <span style="color:SlateGray;">1.98 gal</span></p>
+                            </body>
+                        </html>
+                        
+
+--===============1062265724==--
+
+
